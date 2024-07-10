@@ -32,4 +32,11 @@ Use the `w` and `h` flags to set the size of the grid, and `fr` for the video fr
 
 [502 - Bad Gateway (by me!!!) as a video](https://youtu.be/E66mXkIZJ9c?si=HBURp6OF5YL2IrLE) (audio is messed up because of wrong sample format)
 
+Command:
+```
+node makeVideo.js preset=48000s abd=s16le s=48 fr=60
+```
+
 [Undertale's data.win file as a video, by Vortex (@vortexmeta)](https://www.youtube.com/watch?v=ENpQ376JHkA)
+
+They didn't use MakeVideo I got the ffmpeg command from them.
