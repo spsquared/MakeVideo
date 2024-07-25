@@ -38,8 +38,8 @@ if (process.argv.includes('help')) {
     console.log('  list-presets: shows all available presets');
     console.log('Arguments:');
     console.log('  preset: Choose a preset to apply (other arguments can override this)')
-    console.log('  w: width of each frame (default 42');
-    console.log('  h: height of each frame (default 42');
+    console.log('  w: width of each frame (default 42)');
+    console.log('  h: height of each frame (default 42)');
     console.log('  s: scale of final video (e.g. s=4 makes a 40x40 grid 160x160 pixels) (default 24)');
     console.log('  fr: frame rate of video (default 25)');
     console.log('  vbr: maximum video bitrate, kb (default 50000)');
