@@ -16,6 +16,7 @@ And yes I wrote it in JavaScript because I'm just like that.
 
 1. Add a file to this folder and call it "**input**" (no file extension)
 2. Use Node to run **makeVideo.js** (`node makeVideo.js`), and it will automatically convert "**input**" into "**output.mp4**"
+   - Tip: use the "help" argument to view all options
 3. Use [VLC Media Player](https://www.videolan.org/) to view the finished video since I can't get Windows to recognize the scuffed format
 
 # Commands and arguments
@@ -26,7 +27,7 @@ MakeVideo comes with a few presets (mostly for turning audio into video), but yo
 
 Use the `w` and `h` flags to set the size of the grid, and `fr` for the video framerate. `s` is the scale MakeVideo uses to scale up the grid to a more watchable resolution (so a 40x40 video can become a 960x960 video). MakeVideo adjusts the sample rate to sync the audio you hear with the video you see, but you can also set the audio sample rate manually if you change the sample format (in for whatever reason).
 
-**Use the `help` argument to display up-to-date information.**
+**Use the `help` argument to display up-to-date information.** (`node makeVideo.js help`)
 
 # Examples
 

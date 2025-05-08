@@ -45,9 +45,9 @@ if (process.argv.includes('help')) {
     console.log('  vbr: maximum video bitrate, kb (default 50000)');
     console.log('  abr: audio bitrate (default 128)');
     console.log('  asr: audio sample rate (default 44100)');
-    console.log('  abd: audio bit depth (default u8, use ffmpeg -formats to list)');
+    console.log('  abd: audio bit depth (default u8, use ffmpeg -formats to list, common values include u8, u16le, u16be, s8, s16le, s16be)');
     console.log('Tip: The sample rate should be equal to the width * height * framerate for the audio and video to be synced');
-    console.log('  (changing the bit depth breaks this rule, 16-bit audio should multiply sample rate by 2)');
+    console.log('  (changing the bit depth breaks this rule, 16-bit audio should multiply frame rate by 2)');
     return;
 }
 
