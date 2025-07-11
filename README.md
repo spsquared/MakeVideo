@@ -14,9 +14,10 @@ And yes I wrote it in JavaScript because I'm just like that.
 
 # How to use
 
-1. Add a file to this folder and call it "**input**" (no file extension)
-2. Use Node to run **makeVideo.js** (`node makeVideo.js`), and it will automatically convert "**input**" into "**output.mp4**"
+1. Add a file to this folder
+2. Use Node to run **makeVideo.js** (`node makeVideo.js in=<input-filename>`), and it will automatically convert "**input-filename**" into "**output.mp4**"
    - Tip: use the "help" argument to view all options
+   - If you do not supply an `in=` argument it will use the file **input**
 3. Use [VLC Media Player](https://www.videolan.org/) to view the finished video since I can't get Windows to recognize the scuffed format
 
 # Commands and arguments
